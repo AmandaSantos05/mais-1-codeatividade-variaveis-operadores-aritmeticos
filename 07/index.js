@@ -1,7 +1,5 @@
+const n = 6;
+const s = (n - 2) * 180;
+const a = s / n;
 
-const numeroLadosPoligno = 6
-const somaAngulos = (numeroLadosPoligno - 2) * 180
-const cadaAngulo = somaAngulos / 6
-
-const resultado = `Angulos internos: ${somaAngulos} e valor de cada angulo ${cadaAngulo} `
-console.log(resultado)
+console.log(`Valor da soma dos ângulos internos: ${s}, valor de cada ângulo do polígono ${a}`)
